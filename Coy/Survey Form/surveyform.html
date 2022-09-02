@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="surveyform.css" />
+  </head>
+   <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Please take a moments to complete this survey </p>
+    <fieldset>
+    <form id="survey-form">
+        <label id="name-label">Name: <input id="name" type="text" required placeholder="Enter Your Name"/></label>
+        <label id="email-label">Email: <input id="email" type="email" placeholder="Enter Your Email" required/></label>
+        <label id="number-label">Age(Optional): <input id="number" min="0"  max="100" type="number" placeholder="Enter Your Age"></label>
+        <label>What best describes your current category?</label>
+           <select id="dropdown">
+           <option value="">Select one</option>
+           <option value="1">Youth</option>
+           <option value="2">Young Pro</option>
+           <option value="3">Seasoned</option>
+           <option value="4">Prefer not to say</option>
+           <option value="5">Others</option>
+           </select>
+        <label>Would you recommend Favor Church to a friend?</label>
+        <label><input type="radio" name="Answer" class="inline" value="yes"/>Yes</label>
+        <label><input type="radio" name="Answer" class="inline" value="no"/>No</label>
+        <label>What service do you attend?</label>
+        <input type="checkbox" name="Service" class="inline" value="10AM"/>10 AM
+        <input type="checkbox" name="Service" class="inline" value="1PM"/>1 PM
+        <input type="checkbox" name="Service" class="inline"value="4PM"/>4 PM
+        <textarea name="Comments" rows="3" cols="30" placeholder="We would love to hear your comments"></textarea>
+          <button id="submit" type="submit" value="submit">Submit
+        </form>
+        </fieldset>
+   </body>
+</html>
