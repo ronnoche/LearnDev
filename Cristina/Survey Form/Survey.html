@@ -1,0 +1,95 @@
+<!DOCTYPE html> 
+
+<html> 
+
+  <head> 
+
+    <title>Survey Form</title> 
+
+    <link rel="stylesheet" href="styles.css"/> 
+
+  </head> 
+
+  <body> 
+
+    <h1 id="title">Survey Form</h1> 
+
+    <h2 id="title">free Code Camp</h2> 
+
+    <p id="description">We highly appreciate your time for helping this platform improve</p> 
+
+      <form id="survey-form"/> 
+
+       <fieldset> 
+
+          <label id="name-label"> Name <input id="name" type="text" placeholder="Enter your Name" required/></label> 
+
+          <label id="email-label"> Email <input id="email" type="email" placeholder="Enter your E-mail" required/></label> 
+
+          <label id="number-label"> Number <input id="number" type="number" min="15" max="150"  placeholder="Enter your Number" required/></label> 
+
+          <label>How did you hear about us? 
+
+           <select id="dropdown"> 
+
+             <option value="">Please select one</option> 
+
+             <option value="1">Facebook</option> 
+
+             <option value="2">Instagram</option> 
+
+             <option value="3">Twitter</option> 
+
+             <option value="4">Others</option> 
+
+           </select> 
+
+          </label> 
+
+          <Label> Would you recommend <strong>FREECODE</strong> to your friends?</Label> 
+
+           <label><input id="definitely" type="radio" name="recommend" class="inline" value="definitely" />Definitely</label> 
+
+           <label><input id="maybe" type="radio" name="recommend" class="inline" value="Maybe" />Maybe</label> 
+
+          <label><input id="Not Sure" type="radio" name="recommend" class="inline" value="Not sure" />Not Sure</label> 
+
+          <label> What would you like to see improved? </label> 
+
+          <label><input id="Front-end-Projects" type="checkbox" name="improvements" value="Front-end-Projects" class="inline"/>Front-end-Projects</label> 
+
+          <label><input id="Back-end-Projects" type="checkbox" name="improvements" value="Back-end-Projects" class="inline"/>Back-end-Projects</label> 
+
+          <label><input id="Data Visualization" type="checkbox" name="improvements" value="Data Visualization" class="inline"/>Data Visualization</label> 
+
+          <label><input id="Challenges" type="checkbox" name="improvements" value="Challenges" class="inline"/>Challenges</label> 
+
+          <label<input id="Open Source Community" type="checkbox" name="improvements" value="Open Source Community" class="inline"/>Open Source Community</label> 
+
+          <label><input id="Gitter help rooms" type="checkbox" name="improvements" value="Gitter help rooms" class="inline"/>Gitter help rooms</label> 
+
+          <label><input id="Videos" type="checkbox" name="improvements" value="Videos" class="inline"/>Videos</label> 
+
+          <label><input id="City Meetups" type="checkbox" name="improvements" value="City Meetups" class="inline"/>City Meetups</label> 
+
+          <label><input id="Wiki" type="checkbox" name="improvements" value="Wiki" class="inline"/>Wiki</label> 
+
+          <label><input id="Forum" type="checkbox" name="improvements" value="Forum" class="inline"/>Forum</label> 
+
+          <label><input id="Additional Courses" type="checkbox" name="improvements" value="Additional Courses" class="inline"/>Additional Courses</label> 
+
+          <label>Any Comments or Suggestions? 
+
+               <textarea name="comments" rows="10" cols="65" placeholder="Enter your comment here..."></textarea> 
+
+          </label> 
+
+        </fieldset> 
+
+        <input id="submit" type="submit" value="submit" /> 
+
+     </form> 
+
+  </body> 
+
+</html> 
