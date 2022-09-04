@@ -8,7 +8,6 @@ body {
       rgba(136, 136, 206, 0.7)
     ),
     url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
-  
 	color: #f3f2f1;
   font-family: inherit;
 	font-size: 20px;
@@ -29,7 +28,6 @@ p {
   text-align: center;
   font-family: Candara;
 }
-
 form {
   width:100%;
   background-color:#273059;
