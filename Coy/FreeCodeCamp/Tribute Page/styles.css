@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 html {
   /* Setting a base font size of 10px give us easier rem calculations
        Info: 1rem === 10px, 1.5rem === 15px, 2rem === 20px and so forth
@@ -100,3 +101,44 @@ blockquote {
   margin: 0 auto 50px auto;
   text-align: left;
 }
+=======
+h1,h2,h3{
+    text-align: center;
+    font-family: Montserrat, arial;
+    margin: auto;
+    max-width: auto;
+  }
+  
+  img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+    align-content: center;
+    
+  }
+  
+  figcaption{
+    font-size: 20px;
+    font-family: serif, sans-serif;
+    align-content: center;
+  }
+  
+  ul>li{
+    font-size: 18px;
+    text-align: left;
+    padding: 1rem;
+    display: block;
+    flex-wrap: wrap;
+	align-items: center;
+  }
+  
+  .canvas{
+    width: 500px;
+    height: 3000px;
+    background-color: #F8F8FF
+    display: flex;
+    margin: auto;
+    
+  }
+>>>>>>> 4a5ff56b5e495de753bff0bb5702b5b316e2bfb3
