@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <title>Survey Form</title>
-    <link rel="stylesheet" href="surveyform.css" />
+    <link rel="stylesheet" href="style.css" />
   </head>
    <body>
     <h1 id="title">Survey Form</h1>
@@ -13,13 +13,13 @@
         <label id="name-label">Name: <input id="name" type="text" required placeholder="Enter Your Name"/></label>
         <label id="email-label">Email: <input id="email" type="email" placeholder="Enter Your Email" required/></label>
         <label id="number-label">Age(Optional): <input id="number" min="0"  max="100" type="number" placeholder="Enter Your Age"></label>
-        <label>What best describes your people group?</label>
+        <label>What is your people group?</label>
            <select id="dropdown">
            <option value="">Select one</option>
-           <option value="1">Favor Youth</option>
-           <option value="2">Favor Movement</option>
-           <option value="2">Favor Pro</option>
-           <option value="3">Favor Seasoned</option>
+           <option value="1">Favor Youth(Ages 13-17)</option>
+           <option value="2">Favor Movement(Ages 18-25)</option>
+           <option value="2">Favor Pro(Ages 26-49)</option>
+           <option value="3">Favor Seasoned (Ages 50+)</option>
            <option value="4">Prefer not to say</option>
            <option value="5">Others</option>
            </select>
