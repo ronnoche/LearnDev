@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Buttons</title>
+      <link rel="stylesheet" href="style.css"/>
+  </head>
+  <body>
+    <p class="p1">
+        <a class="button" href="#" onclick="myFunction()">Tell me what I need to hear</a> 
+
+        <script>
+            function myFunction()
+            {
+                var things = ['You are WORTH IT', 'Dream Again', 'It is okay to rest', 'Failure is not the end', 'Success is when opportunity and preparation meets', 'You need to take care of your body', 'Listen to good feedback', 'Fail if you must', 'Move on', 'A friend is always just one call away','Hard work pays off'];
+                var thing = things[Math.floor(Math.random()*things.length)];
+                alert('Hey there: ' + thing);
+            }
+        </script>
+  </body>

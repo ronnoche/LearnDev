@@ -1,9 +1,15 @@
-<html>
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>JavaScript label example</title>
     <head>
       <link rel="stylesheet" href="style.css"/>
     </head>
     <body>
-        <p>Player 1: Coymachine</p>
+        <p>Change my name: Coymachine</p>
+        <p class="id1">Color</p>
 
         <script>
             const para = document.querySelector('p');
@@ -12,8 +18,9 @@
       
             function updateName() {
               const name = prompt('Enter a new name');
-              para.textContent = `Player 1: ${name}`;
+              para.textContent = `Change my name: ${name}`;
             }
+
           </script>
     </body>
 </html>

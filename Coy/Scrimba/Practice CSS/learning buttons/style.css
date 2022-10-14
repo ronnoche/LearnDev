@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10vw;
+
+}
+
+.button {
+    display: inline-block;
+    font-size: 50px;
+    font-family: "helvetica neue", helvetica, sans-serif;
+    background: #FFE600;
+    color: black;
+    padding: auto;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    padding: 3px 8px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    text-align: center;
+    box-shadow: 2px 5px 10px rgba(207, 101, 20, 0.704);
+}
