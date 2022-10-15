@@ -23,3 +23,8 @@ body{
     text-align: center;
     box-shadow: 2px 5px 10px rgba(207, 101, 20, 0.704);
 }
+
+.remember{
+    position: relative;
+    text-align: center;
+}
